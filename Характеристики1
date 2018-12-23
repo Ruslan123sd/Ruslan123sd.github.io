@@ -1,7 +1,8 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,6 +10,7 @@
 
     <!-- Title -->
     <title>Pear.com</title>
+
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/address_book.ico">
 
@@ -19,12 +21,14 @@
     <link href="css/responsive.css" rel="stylesheet">
 
 </head>
-<body>
- <!-- Preloader Start -->
+
+<body bgcolor="#000000">
+    <!-- Preloader Start -->
     <div id="preloader">
         <div class="colorlib-load"></div>
     </div>
- <!-- ***** Header Area Start ***** -->
+
+    <!-- ***** Header Area Start ***** -->
     <header class="header_area animated">
         <div class="container-fluid">
             <div class="row align-items-center">
@@ -38,8 +42,27 @@
                             <!-- Menu Area -->
                             <div class="collapse navbar-collapse" id="ca-navbar">
                                 <ul class="navbar-nav ml-auto" id="nav">
-                                  <li class="nav-item"><a class="nav-link" href="#about">Характеристики</a></li>
-     <!-- Section Heading Area -->
+                                    <li class="nav-item active"><a class="nav-link" href="#home">Главная</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Signup btn -->
+                <div class="col-12 col-lg-2">
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Special Area Start ***** -->
+    <section class="special-area bg-white section_padding_100" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Area -->
                     <div class="section-heading text-center">
                         <h2>Почему именно эта модель?</h2>
                         <div class="line-shape"></div>
@@ -79,6 +102,60 @@
                     </div>
                 </div>
             </div>
-        </div>                
-        </body>
-</html>
+        </div>
+        <!-- Special Description Area -->
+        <div class="special_description_area mt-150">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="special_description_img">
+                            <img src="img/bg-img/special.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                        <div class="special_description_content">
+                            <h2>Он создан для вас!</h2>
+                            <p>Мы делаем самые лучшие телефоны для наших дорогих преподавателей. Хотите сделать вашу работу легче? Вам нужен данный аппарат. Ведь именно с помощью его вы можете сразу же заметить, когда списывает Долганов, тем самым облегчит ваш выбор оценки.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Special Area End ***** -->
+
+    
+    <!-- ***** Cool Facts Area End ***** -->
+
+ <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-social-icon text-center section_padding_70 clearfix">
+        <!-- footer logo -->
+        <div class="footer-text">
+            <h2>Спасибо за внимание *(^=^)*</h2>
+        </div>
+        <a href="index.html"><h1>Вернуться на главную страницу</h1> </a>
+        <!-- social icon-->
+        
+        <div class="footer-menu">
+            <nav>
+                
+            </nav>
+        </div>
+    
+
+    <!-- Jquery-2.2.4 JS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap-4 Beta JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins JS -->
+    <script src="js/plugins.js"></script>
+    <!-- Slick Slider Js-->
+    <script src="js/slick.min.js"></script>
+    <!-- Footer Reveal JS -->
+    <script src="js/footer-reveal.min.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
+</body>
